@@ -68,7 +68,7 @@ public class HeadFragment extends Fragment implements View.OnClickListener {
         }
 
         if(v.getId()==R.id.abhinav_call){
-            Intent intent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", "+91 7738694871", null));
+            Intent intent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", "+91 0738694871", null));
             startActivity(intent);
         }
 
