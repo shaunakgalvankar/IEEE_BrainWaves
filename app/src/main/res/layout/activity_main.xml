@@ -25,7 +25,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="bottom">
+            android:layout_gravity="bottom"
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/logout"
@@ -34,18 +35,17 @@
                 android:gravity="center"
                 android:text="@string/designed_and_developed_by"
                 android:textColor="@color/colorAccent"
-
+                android:paddingBottom="@dimen/_9sdp"
                 />
-
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center_horizontal"
-                android:paddingBottom="8dp"
-                android:text="@string/chirag_gada_nshaunak_galvankar_njatin_dalvi"
-                android:textColor="@color/colorAccent"
-                android:textSize="15sp"
-                android:textStyle="bold" />
+                android:gravity="center"
+                android:text="Chirag Gada \n Shaunak Galvankar \n Jatin Dalvi"
+                android:textColor="@color/colorPrimary"
+                android:paddingBottom="@dimen/_15sdp"/>
+
+
         </LinearLayout>
     </android.support.design.widget.NavigationView>
 

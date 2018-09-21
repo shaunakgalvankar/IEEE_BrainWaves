@@ -39,7 +39,7 @@ public class CouncilFragment extends Fragment {
 //        // Inflate the layout for this fragment
 
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_coucil, container, false);
+        View view = inflater.inflate(R.layout.fragment_committee, container, false);
         tabLayout = (TabLayout)view.findViewById(R.id.council_tabs);
         viewPager = (ViewPager)view.findViewById(R.id.view_pager_council);
         viewPager.setAdapter(new CouncilFramgentPageAdapter(getChildFragmentManager()));

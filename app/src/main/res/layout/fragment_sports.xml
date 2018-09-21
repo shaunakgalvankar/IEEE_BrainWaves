@@ -40,7 +40,7 @@
                         android:layout_weight="8"
                         android:adjustViewBounds="true"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/manthan" />
+                        />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -149,7 +149,7 @@
                         android:layout_weight="8"
                         android:adjustViewBounds="true"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/pankaj" />
+                      />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -246,7 +246,7 @@
                         android:layout_weight="8"
                         android:adjustViewBounds="true"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/shrikant" />
+                         />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -349,7 +349,7 @@
                         android:layout_weight="8"
                         android:adjustViewBounds="true"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/naveen" />
+                         />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -446,7 +446,7 @@
                         android:layout_weight="8"
                         android:adjustViewBounds="true"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/sisodhiya" />
+                         />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -554,7 +554,7 @@
                         android:layout_weight="8"
                         android:adjustViewBounds="true"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/nitin" />
+                         />
 
                     <LinearLayout
                         android:layout_width="match_parent"

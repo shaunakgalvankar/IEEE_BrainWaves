@@ -148,9 +148,9 @@
                         android:layout_height="200dp"
                         android:layout_weight="8"
                         android:adjustViewBounds="true"
-                        android:scaleType="centerCrop"
+                        android:scaleType="centerCrop"/>
                         <!--android:src="@drawable/sankhya"-->
-                        />
+
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -247,7 +247,7 @@
                         android:layout_weight="8"
                         android:adjustViewBounds="true"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/sanjeet" />
+                        />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -355,7 +355,7 @@
                         android:layout_weight="8"
                         android:adjustViewBounds="true"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/umang" />
+                        />
 
                     <LinearLayout
                         android:layout_width="match_parent"

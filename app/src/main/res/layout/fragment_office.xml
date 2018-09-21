@@ -40,7 +40,7 @@
                         android:layout_weight="8"
                         android:adjustViewBounds="true"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/hallmanager" />
+                         />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -138,7 +138,7 @@
                         android:layout_weight="8"
                         android:adjustViewBounds="true"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/hallboy" />
+                        />
 
                     <LinearLayout
                         android:layout_width="match_parent"

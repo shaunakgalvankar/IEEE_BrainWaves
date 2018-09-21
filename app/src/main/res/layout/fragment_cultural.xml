@@ -40,7 +40,7 @@
                         android:layout_weight="8"
                         android:adjustViewBounds="true"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/shyam" />
+                         />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -149,7 +149,7 @@
                         android:layout_weight="8"
                         android:adjustViewBounds="true"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/ram" />
+                         />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -246,7 +246,7 @@
                         android:layout_weight="8"
                         android:adjustViewBounds="true"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/abhishek" />
+                         />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -349,7 +349,7 @@
                         android:layout_weight="8"
                         android:adjustViewBounds="true"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/prajjwal" />
+                         />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -447,7 +447,7 @@
                         android:layout_weight="8"
                         android:adjustViewBounds="true"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/harshit" />
+                         />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -550,7 +550,7 @@
                         android:layout_weight="8"
                         android:adjustViewBounds="true"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/prem" />
+                         />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -650,7 +650,7 @@
                         android:layout_weight="8"
                         android:adjustViewBounds="true"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/nihal" />
+                         />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -754,7 +754,7 @@
                         android:layout_weight="8"
                         android:adjustViewBounds="true"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/aryan" />
+                         />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -851,7 +851,7 @@
                         android:layout_weight="8"
                         android:adjustViewBounds="true"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/soham" />
+                         />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -953,7 +953,7 @@
                         android:layout_weight="8"
                         android:adjustViewBounds="true"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/param" />
+                         />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -1050,7 +1050,7 @@
                         android:layout_weight="8"
                         android:adjustViewBounds="true"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/mohanish" />
+                        />
 
                     <LinearLayout
                         android:layout_width="match_parent"

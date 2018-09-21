@@ -89,14 +89,14 @@ public class MainActivity extends AppCompatActivity {
             public boolean onNavigationItemSelected(MenuItem item) {
                 int id = item.getItemId();
 
-                if (id == R.id.nav_cms) {
+                if (id == R.id.nav_ieee_website) {
                     CMSFragment cmsFragment = new CMSFragment();
                     if (getSupportFragmentManager().getBackStackEntryCount() > 1) {
                         getSupportFragmentManager().popBackStack();
                     }
                     openFragment(cmsFragment, "CMS fragment");
 
-                } else if (id == R.id.nav_council) {
+                } else if (id == R.id.nav_commitee) {
                     CouncilFragment councilFramgent = new CouncilFragment();
                     if (getSupportFragmentManager().getBackStackEntryCount() > 1) {
                         getSupportFragmentManager().popBackStack();
@@ -117,6 +117,14 @@ public class MainActivity extends AppCompatActivity {
                     }
                     openFragment(helplineFragment, "Helpline fragment");
                 }
+                // TODO: 21-Sep-18 mentors fragement 
+//                else if (id == R.id.nav_Mentors) {
+//                    HelplineFragment helplineFragment = new HelplineFragment();
+//                    if (getSupportFragmentManager().getBackStackEntryCount() > 1) {
+//                        getSupportFragmentManager().popBackStack();
+//                    }
+//                    openFragment(helplineFragment, "Mentors fragment");
+//                }
 
                 DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
                 assert drawer != null;

@@ -40,7 +40,7 @@
 				   android:layout_weight="8"
 				   android:adjustViewBounds="true"
 				   android:scaleType="centerCrop"
-				   android:src="@drawable/rishav" />
+				    />
 
 			   <LinearLayout
 				   android:layout_width="match_parent"
@@ -149,7 +149,7 @@
 				   android:layout_weight="8"
 				   android:adjustViewBounds="true"
 				   android:scaleType="centerCrop"
-				   android:src="@drawable/mohil" />
+				    />
 
 			   <LinearLayout
 				   android:layout_width="match_parent"
@@ -246,7 +246,7 @@
 				   android:layout_weight="8"
 				   android:adjustViewBounds="true"
 				   android:scaleType="centerCrop"
-				   android:src="@drawable/trishant" />
+				    />
 
 			   <LinearLayout
 				   android:layout_width="match_parent"
@@ -354,7 +354,7 @@
 				   android:layout_weight="8"
 				   android:adjustViewBounds="true"
 				   android:scaleType="centerCrop"
-				   android:src="@drawable/gaurav" />
+				    />
 
 			   <LinearLayout
 				   android:layout_width="match_parent"
