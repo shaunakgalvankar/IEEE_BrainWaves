@@ -117,7 +117,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                     openFragment(helplineFragment, "Helpline fragment");
                 }
-                // TODO: 21-Sep-18 mentors fragement 
+                // TODO: 21-Sep-18 mentors fragement
 //                else if (id == R.id.nav_Mentors) {
 //                    HelplineFragment helplineFragment = new HelplineFragment();
 //                    if (getSupportFragmentManager().getBackStackEntryCount() > 1) {

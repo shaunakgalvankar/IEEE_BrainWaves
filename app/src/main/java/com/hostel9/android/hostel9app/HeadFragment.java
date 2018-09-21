@@ -1,10 +1,8 @@
 package com.hostel9.android.hostel9app;
 
-import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.provider.ContactsContract;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -20,8 +18,8 @@ public class HeadFragment extends Fragment implements View.OnClickListener {
     ImageView shreerangMail;
     ImageView abhinavCall;
     ImageView abhinavMail;
-    ImageView wardeMail;
-    ImageView assoMail;
+    ImageView chair_mail;
+    ImageView cochair_mail;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -42,8 +40,8 @@ public class HeadFragment extends Fragment implements View.OnClickListener {
         shreerangMail = (ImageView) myView.findViewById(R.id.shreerang_mail);
         abhinavCall = (ImageView) myView.findViewById(R.id.abhinav_call);
         abhinavMail = (ImageView) myView.findViewById(R.id.abhinav_mail) ;
-        wardeMail = (ImageView) myView.findViewById(R.id.warden_mail);
-        assoMail = (ImageView) myView.findViewById(R.id.asso_warden_mail);
+        chair_mail = (ImageView) myView.findViewById(R.id.chair_mail);
+        cochair_mail = (ImageView) myView.findViewById(R.id.cochair_mail);
 
 
         //Set onClickListeners
@@ -51,8 +49,8 @@ public class HeadFragment extends Fragment implements View.OnClickListener {
         shreerangMail.setOnClickListener(this);
         abhinavMail.setOnClickListener(this);
         abhinavCall.setOnClickListener(this);
-        wardeMail.setOnClickListener(this);
-        assoMail.setOnClickListener(this);
+        chair_mail.setOnClickListener(this);
+        cochair_mail.setOnClickListener(this);
 
 
 
@@ -88,13 +86,13 @@ public class HeadFragment extends Fragment implements View.OnClickListener {
             startActivity(Intent.createChooser(emailIntent, "Send email..."));
         }
 
-        if(v.getId() == R.id.warden_mail){
-            Intent emailIntent = new Intent(Intent.ACTION_SENDTO, Uri.parse("mailto:" + "pradeep@chem.iitb.ac.in")
+        if(v.getId() == R.id.chair_mail){
+            Intent emailIntent = new Intent(Intent.ACTION_SENDTO, Uri.parse("mailto:" + "shaunakprasad@gmail.com")
                     .buildUpon()
                     .build());
             startActivity(Intent.createChooser(emailIntent, "Send email..."));
         }
-        if(v.getId() == R.id.asso_warden_mail){
+        if(v.getId() == R.id.cochair_mail){
             Intent emailIntent = new Intent(Intent.ACTION_SENDTO, Uri.parse("mailto:" + "bm@ee.iitb.ac.in")
                     .buildUpon()
                     .build());

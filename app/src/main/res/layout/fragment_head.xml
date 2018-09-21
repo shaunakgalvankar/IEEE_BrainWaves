@@ -51,25 +51,25 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="Warden"
+                            android:text="Shaunak Galvankar"
+                            android:textColor="#000"
+                            android:textSize="16dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="ChairPerson"
                             android:textColor="#000"
                             android:textSize="16dp"
                             android:textStyle="bold" />
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center_horizontal"
-                            android:text="Pradeep Kumar"
-                            android:textColor="#000"
-                            android:textSize="16dp" />
+
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="Room No.: -"
-                            android:textColor="#000"
+
                             android:textSize="16dp" />
 
 
@@ -80,10 +80,19 @@
                             android:layout_marginTop="3dp"
                             android:orientation="horizontal">
 
-
+                            <ImageView
+                                android:id="@+id/chair_wa"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingBottom="4dp"
+                                android:paddingTop="4dp"
+                                android:src="@drawable/phone_icon"
+                                />
 
                             <ImageView
-                                android:id="@+id/warden_mail"
+                                android:id="@+id/chair_mail"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
@@ -134,27 +143,27 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="Asso. Warden"
+                            android:text="Ashish Acharya"
                             android:textColor="#000"
                             android:textSize="16dp"
-                            android:textStyle="bold" />
+                             />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="Bhaskaran Muralidharan"
+                            android:text="Co-ChairPerson"
                             android:textColor="#000"
                             android:maxLines="1"
                             android:ellipsize="end"
                             android:layout_marginLeft="4dp"
-                            android:textSize="16dp" />
+                            android:textSize="16dp"
+                            android:textStyle="bold"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="Room No.: -"
                             android:textColor="#000"
                             android:textSize="16sp" />
 
@@ -165,9 +174,17 @@
                             android:orientation="horizontal">
 
 
-
                             <ImageView
-                                android:id="@+id/asso_warden_mail"
+                                android:id="@+id/co_chair_wa"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingBottom="4dp"
+                                android:paddingTop="4dp"
+                                android:src="@drawable/phone_icon" />
+                            <ImageView
+                                android:id="@+id/cochair_mail"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
@@ -220,28 +237,30 @@
                         android:paddingBottom="2dp"
                         android:paddingTop="4dp">
 
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="General Secretary"
+                            android:text="Jatin Dalvi"
                             android:textColor="#000"
                             android:textSize="16dp"
-                            android:textStyle="bold" />
+                            android:textStyle="bold"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="Shreerang Kaore"
+                            android:text="Vice ChairPerson"
                             android:textColor="#000"
-                            android:textSize="16dp" />
+                            android:textSize="16dp"
+                             />
+
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="Room No.: 363"
                             android:textColor="#000"
                             android:textSize="16dp" />
 
