@@ -36,10 +36,10 @@ public class HeadFragment extends Fragment implements View.OnClickListener {
         //Write your code below this
 
         //Define the button objects below & link to the views
-        shreerangCall = (ImageView) myView.findViewById(R.id.shreerang_call);
-        shreerangMail = (ImageView) myView.findViewById(R.id.shreerang_mail);
-        abhinavCall = (ImageView) myView.findViewById(R.id.abhinav_call);
-        abhinavMail = (ImageView) myView.findViewById(R.id.abhinav_mail) ;
+        shreerangCall = (ImageView) myView.findViewById(R.id.VCP1_wa);
+        shreerangMail = (ImageView) myView.findViewById(R.id.VCP1_mail);
+        abhinavCall = (ImageView) myView.findViewById(R.id.VCP2_wa);
+        abhinavMail = (ImageView) myView.findViewById(R.id.vcp2_mail) ;
         chair_mail = (ImageView) myView.findViewById(R.id.chair_mail);
         cochair_mail = (ImageView) myView.findViewById(R.id.cochair_mail);
 
@@ -62,24 +62,24 @@ public class HeadFragment extends Fragment implements View.OnClickListener {
     @Override
     public void onClick(View v){
 
-        if(v.getId()==R.id.shreerang_call){
+        if(v.getId()==R.id.VCP1_wa){
             Intent intent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", "+91 9823807911", null));
             startActivity(intent);
         }
 
-        if(v.getId()==R.id.abhinav_call){
+        if(v.getId()==R.id.VCP2_wa){
             Intent intent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", "+91 0738694871", null));
             startActivity(intent);
         }
 
-        if(v.getId() == R.id.shreerang_mail){
+        if(v.getId() == R.id.VCP1_mail){
             Intent emailIntent = new Intent(Intent.ACTION_SENDTO, Uri.parse("mailto:" + "sdkkaore@gmail.com")
                     .buildUpon()
                     .build());
             startActivity(Intent.createChooser(emailIntent, "Send email..."));
         }
 
-        if(v.getId() == R.id.abhinav_mail){
+        if(v.getId() == R.id.vcp2_mail){
             Intent emailIntent = new Intent(Intent.ACTION_SENDTO, Uri.parse("mailto:" + "abhinavbanka.ab@gmail.com")
                     .buildUpon()
                     .build());
