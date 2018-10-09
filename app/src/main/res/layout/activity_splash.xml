@@ -1,20 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.hostel9.android.hostel9app.splash">
+    tools:context="com.hostel9.android.hostel9app.splash"
+    android:background="#00429a">
 
 
     <TextView
         android:id="@+id/logo"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="logo"
-        android:textStyle="bold"
-        android:textSize="70sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="17dp"
+        android:background="#00429a"
         android:gravity="center"
-        />
+        android:padding="61dp"
+        android:text="@string/ieee_braiwaves"
+        android:textColor="#ffffff"
+        android:textSize="70sp"
+        android:textStyle="bold" />
 
-</android.support.constraint.ConstraintLayout>
+    <ImageView
+        android:id="@+id/logo2"
+        android:layout_width="273dp"
+        android:layout_height="251dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        app:srcCompat="@mipmap/ic_launcher_foreground" />
+
+
+</RelativeLayout>

@@ -6,18 +6,20 @@ import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class splash extends AppCompatActivity {
 
 
+    ImageView imageview2;
+    TextView text;
     Handler handler;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-
 
         TextView text = (TextView)findViewById(R.id.logo);
         Animation animation1 = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fade);

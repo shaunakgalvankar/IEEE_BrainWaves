@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Brain Waves</string>
+    <string name="app_name">IEEE</string>
 
     <!--Need to edit these strings later-->
 
@@ -39,6 +39,8 @@
     <string name="designed_and_developed_by">Designed and Developed by</string>
     <string name="chirag_gada_nshaunak_galvankar_njatin_dalvi">Chirag Gada  Shaunak Galvankar Jatin Dalvi</string>
     <string name="mentors">Mentors</string>
+    <string name="ieee_brainwaves">IEEE BrainWaves</string>
+    <string name="ieee_braiwaves">IEEE Braiwaves</string>
 
 
 </resources>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#1c0092</color>
-    <color name="colorPrimaryDark">#000063</color>
+    <color name="colorPrimary">#00429a</color>
+    <color name="colorPrimaryDark">#00429a</color>
     <color name="colorAccent">#5c32c4</color>
     <color name="colorBase">#1c0092</color>
     <color name="colorYellow">#F1D302</color>
@@ -17,4 +17,5 @@
     <color name="card_shadow_1">#d4d4d4</color>
     <color name="card_shadow_2">#dddddd</color>
     <color name="card_detailing">#eee</color>
+    <color name="ieeecolor">#00429a</color>
 </resources>
